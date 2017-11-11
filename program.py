@@ -40,5 +40,6 @@ def __main__():
 			team_b = point["team_b"]
 			file.write(team_a[1] + "," + team_a[0] + "," + team_a[2] + "\n")
 			file.write(team_b[1] + "," + team_b[0] + "," + team_b[2] + "\n")
+			file.write("-,-,-\n")
 
 __main__()
